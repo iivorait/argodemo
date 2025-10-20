@@ -4,7 +4,7 @@ metadata:
   name: entso-e
   namespace: demo
 spec:
-  host: entso-e.apps.helsinkipm2.raitahila.com
+  host: {{ .Values.routeHost }}
   to:
     kind: Service
     name: entso-e
