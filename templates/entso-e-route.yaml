@@ -7,7 +7,7 @@ spec:
   host: entso-e.apps.helsinkipm2.raitahila.com
   to:
     kind: Service
-    name: backend
+    name: entso-e
   port:
     targetPort: 8080 # port number in service, will be exposed in port 80
   tls: null
